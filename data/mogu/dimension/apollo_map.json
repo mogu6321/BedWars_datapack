@@ -1,0 +1,10 @@
+{
+    "type": "mogu:apollo_map",
+    "generator": {
+      "type": "minecraft:flat",
+      "settings": {
+        "biome": "the_end",
+        "layers": []
+      }
+    }
+  }

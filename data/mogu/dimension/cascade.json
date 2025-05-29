@@ -1,0 +1,10 @@
+{
+    "type": "mogu:cascade",
+    "generator": {
+      "type": "minecraft:flat",
+      "settings": {
+        "biome": "plains",
+        "layers": []
+      }
+    }
+  }

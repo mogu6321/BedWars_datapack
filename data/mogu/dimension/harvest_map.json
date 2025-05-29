@@ -1,0 +1,10 @@
+{
+    "type": "mogu:harvest_map",
+    "generator": {
+      "type": "minecraft:flat",
+      "settings": {
+        "biome": "plains",
+        "layers": []
+      }
+    }
+  }

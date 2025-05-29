@@ -1,0 +1,10 @@
+{
+    "type": "mogu:dragonstar",
+    "generator": {
+      "type": "minecraft:flat",
+      "settings": {
+        "biome": "plains",
+        "layers": []
+      }
+    }
+  }

@@ -1,0 +1,10 @@
+{
+    "type": "mogu:glacier",
+    "generator": {
+      "type": "minecraft:flat",
+      "settings": {
+        "biome": "snowy_plains",
+        "layers": []
+      }
+    }
+  }

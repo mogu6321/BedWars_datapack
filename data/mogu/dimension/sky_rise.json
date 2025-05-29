@@ -1,0 +1,10 @@
+{
+    "type": "mogu:sky_rise",
+    "generator": {
+      "type": "minecraft:flat",
+      "settings": {
+        "biome": "plains",
+        "layers": []
+      }
+    }
+  }

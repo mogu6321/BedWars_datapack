@@ -1,0 +1,10 @@
+{
+    "type": "mogu:solace",
+    "generator": {
+      "type": "minecraft:flat",
+      "settings": {
+        "biome": "badlands",
+        "layers": []
+      }
+    }
+  }

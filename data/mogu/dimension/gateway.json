@@ -1,0 +1,10 @@
+{
+    "type": "mogu:gateway",
+    "generator": {
+      "type": "minecraft:flat",
+      "settings": {
+        "biome": "savanna",
+        "layers": []
+      }
+    }
+  }

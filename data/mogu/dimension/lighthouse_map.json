@@ -1,0 +1,10 @@
+{
+    "type": "mogu:lighthouse_map",
+    "generator": {
+      "type": "minecraft:flat",
+      "settings": {
+        "biome": "beach",
+        "layers": []
+      }
+    }
+  }

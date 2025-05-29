@@ -1,0 +1,10 @@
+{
+    "type": "mogu:scorched_sands_map",
+    "generator": {
+      "type": "minecraft:flat",
+      "settings": {
+        "biome": "desert",
+        "layers": []
+      }
+    }
+  }

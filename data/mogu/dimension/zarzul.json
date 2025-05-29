@@ -1,0 +1,10 @@
+{
+    "type": "mogu:zarzul",
+    "generator": {
+      "type": "minecraft:flat",
+      "settings": {
+        "biome": "jungle",
+        "layers": []
+      }
+    }
+  }

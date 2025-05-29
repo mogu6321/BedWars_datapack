@@ -1,0 +1,10 @@
+{
+    "type": "mogu:hollow",
+    "generator": {
+      "type": "minecraft:flat",
+      "settings": {
+        "biome": "savanna",
+        "layers": []
+      }
+    }
+  }

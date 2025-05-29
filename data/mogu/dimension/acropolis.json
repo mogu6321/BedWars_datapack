@@ -1,0 +1,10 @@
+{
+    "type": "mogu:acropolis",
+    "generator": {
+      "type": "minecraft:flat",
+      "settings": {
+        "biome": "plains",
+        "layers": []
+      }
+    }
+  }

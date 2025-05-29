@@ -1,0 +1,10 @@
+{
+    "type": "mogu:deadwood",
+    "generator": {
+      "type": "minecraft:flat",
+      "settings": {
+        "biome": "dark_forest",
+        "layers": []
+      }
+    }
+  }

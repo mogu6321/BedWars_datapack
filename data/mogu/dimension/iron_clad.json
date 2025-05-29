@@ -1,0 +1,10 @@
+{
+    "type": "mogu:iron_clad",
+    "generator": {
+      "type": "minecraft:flat",
+      "settings": {
+        "biome": "plains",
+        "layers": []
+      }
+    }
+  }

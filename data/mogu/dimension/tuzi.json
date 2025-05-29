@@ -1,0 +1,10 @@
+{
+    "type": "mogu:tuzi",
+    "generator": {
+      "type": "minecraft:flat",
+      "settings": {
+        "biome": "plains",
+        "layers": []
+      }
+    }
+  }

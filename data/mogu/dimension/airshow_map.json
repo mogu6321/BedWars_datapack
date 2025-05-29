@@ -1,0 +1,10 @@
+{
+    "type": "mogu:airshow_map",
+    "generator": {
+      "type": "minecraft:flat",
+      "settings": {
+        "biome": "plains",
+        "layers": []
+      }
+    }
+  }

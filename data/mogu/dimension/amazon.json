@@ -1,0 +1,10 @@
+{
+    "type": "mogu:amazon",
+    "generator": {
+      "type": "minecraft:flat",
+      "settings": {
+        "biome": "jungle",
+        "layers": []
+      }
+    }
+  }

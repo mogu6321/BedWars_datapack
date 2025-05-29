@@ -1,0 +1,10 @@
+{
+    "type": "mogu:yue",
+    "generator": {
+      "type": "minecraft:flat",
+      "settings": {
+        "biome": "plains",
+        "layers": []
+      }
+    }
+  }

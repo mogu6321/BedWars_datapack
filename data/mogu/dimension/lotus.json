@@ -1,0 +1,10 @@
+{
+    "type": "mogu:lotus",
+    "generator": {
+      "type": "minecraft:flat",
+      "settings": {
+        "biome": "plains",
+        "layers": []
+      }
+    }
+  }

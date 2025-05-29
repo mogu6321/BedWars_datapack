@@ -1,0 +1,10 @@
+{
+    "type": "mogu:crypt",
+    "generator": {
+      "type": "minecraft:flat",
+      "settings": {
+        "biome": "plains",
+        "layers": []
+      }
+    }
+  }

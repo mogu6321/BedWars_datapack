@@ -1,0 +1,10 @@
+{
+    "type": "mogu:mirage_map",
+    "generator": {
+      "type": "minecraft:flat",
+      "settings": {
+        "biome": "desert",
+        "layers": []
+      }
+    }
+  }

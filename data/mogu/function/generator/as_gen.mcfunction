@@ -1,0 +1,15 @@
+#own_gen
+    execute as @e[tag=own_gen,tag=red] at @s run function mogu:generator/own_gen/main {color:RED}
+    execute as @e[tag=own_gen,tag=blue] at @s run function mogu:generator/own_gen/main {color:BLUE}
+    execute as @e[tag=own_gen,tag=green] at @s run function mogu:generator/own_gen/main {color:GREEN}
+    execute as @e[tag=own_gen,tag=yellow] at @s run function mogu:generator/own_gen/main {color:YELLOW}
+    execute as @e[tag=own_gen,tag=cyan] at @s run function mogu:generator/own_gen/main {color:CYAN}
+    execute as @e[tag=own_gen,tag=white] at @s run function mogu:generator/own_gen/main {color:WHITE}
+    execute as @e[tag=own_gen,tag=pink] at @s run function mogu:generator/own_gen/main {color:PINK}
+    execute as @e[tag=own_gen,tag=gray] at @s run function mogu:generator/own_gen/main {color:GRAY}
+
+#diamond_gen
+    execute as @e[tag=diamond_gen] at @s run function mogu:generator/diamond_gen/main
+
+#emerald_gen
+    execute as @e[tag=emerald_gen] at @s run function mogu:generator/emerald_gen/main

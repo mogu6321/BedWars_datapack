@@ -1,0 +1,10 @@
+{
+    "type": "mogu:bio_hazard_map",
+    "generator": {
+      "type": "minecraft:flat",
+      "settings": {
+        "biome": "plains",
+        "layers": []
+      }
+    }
+  }

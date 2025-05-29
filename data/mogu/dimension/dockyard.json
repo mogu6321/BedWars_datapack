@@ -1,0 +1,10 @@
+{
+    "type": "mogu:dockyard",
+    "generator": {
+      "type": "minecraft:flat",
+      "settings": {
+        "biome": "plains",
+        "layers": []
+      }
+    }
+  }

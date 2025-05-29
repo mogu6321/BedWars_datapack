@@ -1,0 +1,10 @@
+{
+    "type": "mogu:babylon",
+    "generator": {
+      "type": "minecraft:flat",
+      "settings": {
+        "biome": "plains",
+        "layers": []
+      }
+    }
+  }
