@@ -1,4 +1,4 @@
-# BedWars_datapacks
+# BedWars_datapack
 
 このデータパックはhypixelのミニゲームであるBedWarsを再現したものになっています。
 
