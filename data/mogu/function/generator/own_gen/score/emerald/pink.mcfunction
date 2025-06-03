@@ -1,0 +1,1 @@
+scoreboard players add #pink emerald_count 1

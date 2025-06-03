@@ -1,0 +1,1 @@
+scoreboard players add #aqua gold_count 1

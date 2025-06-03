@@ -1,0 +1,1 @@
+scoreboard players add #aqua emerald_count 1

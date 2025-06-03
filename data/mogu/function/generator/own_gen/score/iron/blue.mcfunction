@@ -1,0 +1,1 @@
+scoreboard players add #blue iron_count 1

@@ -1,0 +1,1 @@
+scoreboard players add #aqua iron_count 1

@@ -1,0 +1,1 @@
+scoreboard players add #red gold_count 1

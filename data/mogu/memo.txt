@@ -43,5 +43,8 @@ trigger_max_y
 trigger_max_z
 iron
 gold
+emerald
 color
 を格納
+
+generaterのブロック

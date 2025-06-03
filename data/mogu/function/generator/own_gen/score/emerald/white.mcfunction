@@ -1,0 +1,1 @@
+scoreboard players add #white emerald_count 1

@@ -1,0 +1,1 @@
+scoreboard players add #green gold_count 1

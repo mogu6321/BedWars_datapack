@@ -6,6 +6,7 @@
     scoreboard objectives remove any_iron
     scoreboard objectives remove iron_count
     scoreboard objectives remove gold_count
+    scoreboard objectives remove emerald_count
     scoreboard objectives remove diamond_lv
     scoreboard objectives remove diamond_timer
     scoreboard objectives remove diamond_text
@@ -21,6 +22,7 @@
     scoreboard objectives add any_iron dummy
     scoreboard objectives add iron_count dummy
     scoreboard objectives add gold_count dummy
+    scoreboard objectives add emerald_count dummy
     scoreboard objectives add diamond_lv dummy
     scoreboard objectives add diamond_timer dummy
     scoreboard objectives add diamond_text dummy

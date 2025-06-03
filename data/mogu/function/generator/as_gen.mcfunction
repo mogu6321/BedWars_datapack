@@ -3,7 +3,7 @@
     execute as @e[tag=own_gen,tag=blue] at @s run function mogu:generator/own_gen/main {color:blue}
     execute as @e[tag=own_gen,tag=green] at @s run function mogu:generator/own_gen/main {color:green}
     execute as @e[tag=own_gen,tag=yellow] at @s run function mogu:generator/own_gen/main {color:yellow}
-    execute as @e[tag=own_gen,tag=cyan] at @s run function mogu:generator/own_gen/main {color:cyan}
+    execute as @e[tag=own_gen,tag=aqua] at @s run function mogu:generator/own_gen/main {color:aqua}
     execute as @e[tag=own_gen,tag=white] at @s run function mogu:generator/own_gen/main {color:white}
     execute as @e[tag=own_gen,tag=pink] at @s run function mogu:generator/own_gen/main {color:pink}
     execute as @e[tag=own_gen,tag=gray] at @s run function mogu:generator/own_gen/main {color:gray}

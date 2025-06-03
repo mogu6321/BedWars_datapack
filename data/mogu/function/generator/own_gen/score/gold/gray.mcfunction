@@ -1,0 +1,1 @@
+scoreboard players add #gray gold_count 1

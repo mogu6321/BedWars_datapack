@@ -13,4 +13,4 @@
 
 #アイテムの個数
 
-    function mogu:generator/own_gen/count
+    $function mogu:generator/own_gen/count {color:$(color)}
