@@ -9,4 +9,8 @@
 
 #アイテムを拾う処理
 
-    
+    $function mogu:generator/own_gen/pick_up_check with storage $(color):own_gen
+
+#アイテムの個数
+
+    function mogu:generator/own_gen/count

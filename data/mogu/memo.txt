@@ -25,3 +25,23 @@
 sky_rise最高高度１００
 
 acroplice
+
+
+$(color):own_genには
+
+split_min_x
+split_min_y
+split_min_z
+split_max_x
+split_max_y
+split_max_z
+trigger_min_x
+trigger_min_y
+trigger_min_z
+trigger_max_x
+trigger_max_y
+trigger_max_z
+iron
+gold
+color
+を格納
