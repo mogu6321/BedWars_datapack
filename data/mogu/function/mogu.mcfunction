@@ -1,1 +1,1 @@
-summon block_display ~ ~1 ~ {block_state:{Name:stone},transformation:{translation:[-0.35f,-0.35f,-0.35f],left_rotation:[0f,0f,0f,1f],scale:[0.7f,0.7f,0.7f],right_rotation:[0f,0f,0f,1f]}}
+$summon pig $(a) $(b) $(c)
