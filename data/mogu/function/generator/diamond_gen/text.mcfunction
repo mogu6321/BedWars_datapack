@@ -1,4 +1,4 @@
-#tickが実行
+#mainが実行
 
 execute as @e[tag=diamond_text,tag=second] run data merge entity @s {text:[{score:{name:"#DIAMOND_GEN",objective:diamond_text},color:red},{"text":" 秒後にスポーンします",color:yellow}]}
 execute as @e[tag=diamond_text,tag=level] if score #DIAMOND_GEN diamond_lv matches 1 run data merge entity @s {text:[{text:"段階",color:yellow},{text:" Ⅰ",color:red}]}

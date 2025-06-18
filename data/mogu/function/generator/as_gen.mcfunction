@@ -1,3 +1,5 @@
+#tickで実行
+
 #own_gen
     execute as @e[tag=own_gen,tag=red] at @s run function mogu:generator/own_gen/main {color:red}
     execute as @e[tag=own_gen,tag=blue] at @s run function mogu:generator/own_gen/main {color:blue}
@@ -9,7 +11,11 @@
     execute as @e[tag=own_gen,tag=gray] at @s run function mogu:generator/own_gen/main {color:gray}
 
 #diamond_gen
-    execute as @e[tag=diamond_gen] at @s run function mogu:generator/diamond_gen/main
+    execute as @e[tag=diamond_gen,type=armor_stand] at @s run function mogu:generator/diamond_gen/main
 
 #emerald_gen
-    execute as @e[tag=emerald_gen] at @s run function mogu:generator/emerald_gen/main
+    execute as @e[tag=emerald_gen,type=armor_stand] at @s run function mogu:generator/emerald_gen/main
+
+#summon
+
+    function mogu:generator/summon_gen/as_spawn
