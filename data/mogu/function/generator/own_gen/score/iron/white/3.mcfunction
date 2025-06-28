@@ -1,0 +1,1 @@
+scoreboard players add #white iron_count 3

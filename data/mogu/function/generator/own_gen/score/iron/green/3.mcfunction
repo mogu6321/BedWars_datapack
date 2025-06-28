@@ -1,0 +1,1 @@
+scoreboard players add #green iron_count 3

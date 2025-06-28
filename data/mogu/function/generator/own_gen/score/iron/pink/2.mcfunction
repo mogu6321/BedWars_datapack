@@ -1,0 +1,1 @@
+scoreboard players add #pink iron_count 2

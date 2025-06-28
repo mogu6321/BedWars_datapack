@@ -1,0 +1,1 @@
+scoreboard players add #gray iron_count 2

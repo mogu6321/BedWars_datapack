@@ -48,3 +48,7 @@ color
 を格納
 
 generaterのブロック
+
+timerのディレクトリ構造とか
+
+timer スタート時だけ0全部！

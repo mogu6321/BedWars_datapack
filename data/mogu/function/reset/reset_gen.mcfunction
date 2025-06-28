@@ -1,4 +1,4 @@
-#remove     
+#remove
     #lv
         scoreboard objectives remove own_lv
         scoreboard objectives remove diamond_lv
@@ -27,11 +27,15 @@
         scoreboard objectives remove emerald_count
 
     #diamond
-        scoreboard objectives remove diamond_timer
+        scoreboard objectives remove lv_1_diamond_timer
+        scoreboard objectives remove lv_2_diamond_timer
+        scoreboard objectives remove lv_3_diamond_timer 
         scoreboard objectives remove diamond_text
     
     #emerald
-        scoreboard objectives remove emerald_timer
+        scoreboard objectives remove lv_1_emerald_timer
+        scoreboard objectives remove lv_2_emerald_timer
+        scoreboard objectives remove lv_3_emerald_timer
         scoreboard objectives remove emerald_text
 
 #add
@@ -70,11 +74,41 @@
         scoreboard objectives add emerald_count dummy
 
     #diamond
-        scoreboard objectives add diamond_timer dummy
+        scoreboard objectives add lv_1_diamond_timer dummy
+        scoreboard objectives add lv_2_diamond_timer dummy
+        scoreboard objectives add lv_3_diamond_timer dummy
         scoreboard objectives add diamond_text dummy
 
     #emerald
-        scoreboard objectives add emerald_timer dummy
+        scoreboard objectives add lv_1_emerald_timer dummy
+        scoreboard objectives add lv_2_emerald_timer dummy
+        scoreboard objectives add lv_3_emerald_timer dummy
         scoreboard objectives add emerald_text dummy
 
 #set
+    #iron_timer
+        scoreboard players set #OWN_GENS lv_0_iron_timer 0
+        scoreboard players set #OWN_GENS lv_1_iron_timer 0
+        scoreboard players set #OWN_GENS lv_4_iron_timer 0
+
+    #gold_timer
+        scoreboard players set #OWN_GENS lv_0_gold_timer 0
+        scoreboard players set #OWN_GENS lv_2_gold_timer 0
+        scoreboard players set #OWN_GENS lv_4_iron_timer 0
+
+    #emerald_timer
+        scoreboard players set #OWN_GENS lv_3_own_emerald_timer 0
+        scoreboard players set #OWN_GENS lv_4_own_emerald_timer 0 
+
+    #diamond
+
+        scoreboard players set #DIAMOND_GEN lv_1_diamond_timer 0
+        scoreboard players set #DIAMOND_GEN lv_2_diamond_timer 0
+        scoreboard players set #DIAMOND_GEN lv_3_diamond_timer 0
+        scoreboard players set #DIAMOND_GEN diamond_text 1
+
+    #emerald
+        scoreboard players set #EMERALD_GEN lv_1_emerald_timer 0
+        scoreboard players set #EMERALD_GEN lv_2_emerald_timer 0
+        scoreboard players set #EMERALD_GEN lv_3_emerald_timer 0
+        scoreboard players set #EMERALD_GEN emerald_text 1

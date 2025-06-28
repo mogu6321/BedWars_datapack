@@ -1,0 +1,1 @@
+scoreboard players add #red iron_count 3

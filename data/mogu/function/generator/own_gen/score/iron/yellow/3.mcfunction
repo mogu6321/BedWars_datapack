@@ -1,0 +1,1 @@
+scoreboard players add #yellow iron_count 3
