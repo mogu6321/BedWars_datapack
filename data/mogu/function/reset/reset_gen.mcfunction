@@ -1,4 +1,4 @@
-#remove
+##-----------------------------------------remove-----------------------------------------
     #lv
         scoreboard objectives remove own_lv
         scoreboard objectives remove diamond_lv
@@ -38,7 +38,7 @@
         scoreboard objectives remove lv_3_emerald_timer
         scoreboard objectives remove emerald_text
 
-#add
+##-----------------------------------------add-----------------------------------------
     #lv
         scoreboard objectives add own_lv dummy
         scoreboard objectives add diamond_lv dummy
@@ -77,15 +77,22 @@
         scoreboard objectives add lv_1_diamond_timer dummy
         scoreboard objectives add lv_2_diamond_timer dummy
         scoreboard objectives add lv_3_diamond_timer dummy
-        scoreboard objectives add diamond_text dummy
+
+        scoreboard objectives add lv_1_diamond_text dummy
+        scoreboard objectives add lv_2_diamond_text dummy
+        scoreboard objectives add lv_3_diamond_text dummy
 
     #emerald
         scoreboard objectives add lv_1_emerald_timer dummy
         scoreboard objectives add lv_2_emerald_timer dummy
         scoreboard objectives add lv_3_emerald_timer dummy
-        scoreboard objectives add emerald_text dummy
 
-#set
+        scoreboard objectives add lv_1_emerald_text dummy
+        scoreboard objectives add lv_2_emerald_text dummy
+        scoreboard objectives add lv_3_emerald_text dummy
+
+##-----------------------------------------set-----------------------------------------
+
     #iron_timer
         scoreboard players set #OWN_GENS lv_0_iron_timer 0
         scoreboard players set #OWN_GENS lv_1_iron_timer 0
@@ -105,10 +112,22 @@
         scoreboard players set #DIAMOND_GEN lv_1_diamond_timer 0
         scoreboard players set #DIAMOND_GEN lv_2_diamond_timer 0
         scoreboard players set #DIAMOND_GEN lv_3_diamond_timer 0
-        scoreboard players set #DIAMOND_GEN diamond_text 1
+        scoreboard players set #DIAMOND_GEN lv_1_diamond_text 30
+        scoreboard players set #DIAMOND_GEN lv_2_diamond_text 24
+        scoreboard players set #DIAMOND_GEN lv_3_diamond_text 12
+        scoreboard players set #DIAMOND_GEN diamond_lv 1
 
     #emerald
         scoreboard players set #EMERALD_GEN lv_1_emerald_timer 0
         scoreboard players set #EMERALD_GEN lv_2_emerald_timer 0
         scoreboard players set #EMERALD_GEN lv_3_emerald_timer 0
-        scoreboard players set #EMERALD_GEN emerald_text 1
+        scoreboard players set #EMERALD_GEN lv_1_emerald_text 60
+        scoreboard players set #EMERALD_GEN lv_2_emerald_text 45
+        scoreboard players set #EMERALD_GEN lv_3_emerald_text 30
+        scoreboard players set #EMERALD_GEN emerald_lv 1
+
+##-----------------------------------------schedule-----------------------------------------
+
+    #timer
+        schedule clear mogu:generator/timer/gen_timer
+        schedule clear mogu:generator/timer/texts

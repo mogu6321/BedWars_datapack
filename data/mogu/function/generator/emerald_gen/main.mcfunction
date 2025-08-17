@@ -7,4 +7,4 @@
 
 #text
 
-    function mogu:generator/diamond_gen/text
+    function mogu:generator/emerald_gen/text

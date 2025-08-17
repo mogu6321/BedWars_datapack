@@ -1,16 +1,4 @@
-#コマブロで1度だけ実行
+#スタート時に一度だけ実行
 
-#iron
-    function mogu:generator/timer/plus/own_gen/iron
-
-#gold
-    function mogu:generator/timer/plus/own_gen/gold
-
-#emerald(own_gen)
-    function mogu:generator/timer/plus/own_gen/emerald
-
-#diamond
-    function mogu:generator/timer/plus/diamond
-
-#emerald
-    function mogu:generator/timer/plus/emerald
+schedule function mogu:generator/timer/gen_timer 1t
+schedule function mogu:generator/timer/texts 1s
