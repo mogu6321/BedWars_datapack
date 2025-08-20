@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:confirmation",
+  "title": "Emerald Gen Spawn",
+  "inputs": [
+    {
+      "type": "minecraft:number_range",
+      "key": "height",
+      "label": "HEIGHT",
+      "start": 3,
+      "end": 4,
+      "step": 1,
+      "initial": 3
+    }
+  ],
+  "can_close_with_escape": true,
+  "yes": {
+    "label": "Give",
+    "action": {
+      "type": "minecraft:dynamic/run_command",
+      "template": "function mogu:generator/spawn_egg/emerald {height:$(height)}"
+    }
+  },
+  "no": {
+    "label": "Close"
+  }
+}

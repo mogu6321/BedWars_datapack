@@ -11,7 +11,7 @@
 
 #own_gen設置
 
-    $summon armor_stand ~ ~ ~ {Invisible:true,Marker:true,NoGravity:true,Invulnerable:true,Silent:true,Tags:[$(color),own_gen]}
+    $summon armor_stand ~ ~ ~ {Invisible:true,Marker:true,NoGravity:true,Invulnerable:true,Silent:true,Tags:[$(color),own_gen,$(speed)]}
 
 #召喚用armor_stand消去
 

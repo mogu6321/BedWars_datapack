@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:multi_action",
+  "title": "Debug Menu",
+  "can_close_with_escape": true,
+  "actions": [
+    {
+      "label": "Generator Spawn",
+      "action": {
+        "type": "minecraft:show_dialog",
+        "dialog": "mogu:generator_spawn"
+      }
+    },
+    {
+      "label": "Generator Settings",
+      "action": {
+        "type": "minecraft:show_dialog",
+        "dialog": "mogu:generator_settings"
+      }
+    }
+  ]
+}

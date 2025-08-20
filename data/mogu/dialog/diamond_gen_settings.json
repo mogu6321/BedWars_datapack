@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:confirmation",
+  "title": "Diamond Generator settings",
+  "body": [],
+  "inputs": [
+    {
+      "type": "minecraft:number_range",
+      "key": "level",
+      "label": "LEVEL",
+      "start": 1,
+      "end": 3,
+      "step": 1,
+      "initial": 1
+    }
+  ],
+  "can_close_with_escape": true,
+  "pause": false,
+  "after_action": "close",
+  "yes": {
+    "label": "Submit",
+    "action": {
+      "type": "minecraft:dynamic/run_command",
+      "template": "function mogu:generator/diamond_gen/level_set {level:$(level)}"
+    }
+  },
+  "no": {
+    "label": "Close"
+  }
+}

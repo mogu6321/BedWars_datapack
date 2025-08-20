@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:multi_action",
+  "title": "Generator Spawn",
+  "actions": [
+    {
+      "label": "Own Gen",
+      "action": {
+        "type": "minecraft:show_dialog",
+        "dialog": "mogu:own_gen_spawn"
+      }
+    },
+    {
+      "label": "Diamond",
+      "action": {
+        "type": "minecraft:show_dialog",
+        "dialog": "mogu:diamond_gen_spawn"
+      }
+    },
+    {
+      "label": "Emerald",
+      "action": {
+        "type": "minecraft:show_dialog",
+        "dialog": "mogu:emerald_gen_spawn"
+      }
+    }
+  ]
+}

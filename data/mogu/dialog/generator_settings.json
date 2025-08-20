@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:multi_action",
+  "title": "Generator Settings",
+  "actions": [
+    {
+      "label": "Own Gen",
+      "action": {
+        "type": "minecraft:show_dialog",
+        "dialog": "mogu:own_gen_settings"
+      }
+    },
+    {
+      "label": "Diamond",
+      "action": {
+        "type": "minecraft:show_dialog",
+        "dialog": "mogu:diamond_gen_settings"
+      }
+    },
+    {
+      "label": "Emerald",
+      "action": {
+        "type": "minecraft:show_dialog",
+        "dialog": "mogu:emerald_gen_settings"
+      }
+    }
+  ]
+}

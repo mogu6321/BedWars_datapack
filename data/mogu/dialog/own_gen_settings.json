@@ -1,0 +1,100 @@
+{
+  "type": "minecraft:confirmation",
+  "title": "Own Generator settings",
+  "body": [],
+  "inputs": [
+    {
+      "type": "minecraft:single_option",
+      "key": "color",
+      "label": "COLOR",
+      "options": [
+        {
+          "id": "red",
+          "display": {
+            "text": "RED",
+            "type": "text",
+            "color": "#dd3d3d"
+          }
+        },
+        {
+          "id": "blue",
+          "display": {
+            "text": "BLUE",
+            "type": "text",
+            "color": "#3b45ca"
+          }
+        },
+        {
+          "id": "yellow",
+          "display": {
+            "text": "YELLOW",
+            "type": "text",
+            "color": "#d6cf00"
+          }
+        },
+        {
+          "id": "green",
+          "display": {
+            "text": "GREEN",
+            "type": "text",
+            "color": "#01ad0c"
+          }
+        },
+        {
+          "id": "aqua",
+          "display": {
+            "text": "AQUA",
+            "type": "text",
+            "color": "#10cefe"
+          }
+        },
+        {
+          "id": "white",
+          "display": {
+            "text": "WHITE",
+            "type": "text",
+            "color": "#ffffff"
+          }
+        },
+        {
+          "id": "pink",
+          "display": {
+            "text": "PINK",
+            "type": "text",
+            "color": "#fe62c5"
+          }
+        },
+        {
+          "id": "gray",
+          "display": {
+            "text": "GRAY",
+            "type": "text",
+            "color": "#666666"
+          }
+        }
+      ]
+    },
+    {
+      "type": "minecraft:number_range",
+      "key": "level",
+      "label": "SPEED",
+      "start": 0,
+      "end": 4,
+      "step": 1,
+      "initial": 0
+    }
+  ],
+  "can_close_with_escape": true,
+  "pause": false,
+  "after_action": "close",
+  "yes": {
+    "label": "Submit",
+    "action": {
+      "type": "minecraft:dynamic/run_command",
+      "template": "function mogu:generator/own_gen/level_set {color:$(color),level:$(level)}"
+    }
+  },
+  "no": {
+    "label": "Close"
+  }
+}

@@ -126,6 +126,33 @@
         scoreboard players set #EMERALD_GEN lv_3_emerald_text 30
         scoreboard players set #EMERALD_GEN emerald_lv 1
 
+    #storage
+
+        data remove storage red:own_gen iron
+        data remove storage blue:own_gen iron
+        data remove storage green:own_gen iron
+        data remove storage yellow:own_gen iron
+        data remove storage cyan:own_gen iron
+        data remove storage white:own_gen iron
+        data remove storage pink:own_gen iron
+        data remove storage gray:own_gen iron
+        data remove storage red:own_gen gold
+        data remove storage blue:own_gen gold
+        data remove storage green:own_gen gold
+        data remove storage yellow:own_gen gold
+        data remove storage cyan:own_gen gold
+        data remove storage white:own_gen gold
+        data remove storage pink:own_gen gold
+        data remove storage gray:own_gen gold
+        data remove storage red:own_gen emerald
+        data remove storage blue:own_gen emerald
+        data remove storage green:own_gen emerald
+        data remove storage yellow:own_gen emerald
+        data remove storage cyan:own_gen emerald
+        data remove storage white:own_gen emerald
+        data remove storage pink:own_gen emerald
+        data remove storage gray:own_gen emerald
+
 ##-----------------------------------------schedule-----------------------------------------
 
     #timer

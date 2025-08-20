@@ -11,10 +11,10 @@
     execute as @e[tag=own_gen,tag=gray] at @s run function mogu:generator/own_gen/main {color:gray}
 
 #diamond_gen
-    execute as @e[tag=diamond_gen,type=armor_stand] at @s run function mogu:generator/diamond_gen/main
+    function mogu:generator/diamond_gen/main
 
 #emerald_gen
-    execute as @e[tag=emerald_gen,type=armor_stand] at @s run function mogu:generator/emerald_gen/main
+    function mogu:generator/emerald_gen/main
 
 #summon
 

@@ -1,0 +1,98 @@
+{
+  "type": "minecraft:confirmation",
+  "title": "Own Gen Spawn",
+  "inputs": [
+    {
+      "type": "minecraft:single_option",
+      "key": "color",
+      "label": "COLOR",
+      "options": [
+        {
+          "id": "red",
+          "display": {
+            "text": "RED",
+            "type": "text",
+            "color": "#dd3d3d"
+          }
+        },
+        {
+          "id": "blue",
+          "display": {
+            "text": "BLUE",
+            "type": "text",
+            "color": "#3b45ca"
+          }
+        },
+        {
+          "id": "yellow",
+          "display": {
+            "text": "YELLOW",
+            "type": "text",
+            "color": "#d6cf00"
+          }
+        },
+        {
+          "id": "green",
+          "display": {
+            "text": "GREEN",
+            "type": "text",
+            "color": "#01ad0c"
+          }
+        },
+        {
+          "id": "aqua",
+          "display": {
+            "text": "AQUA",
+            "type": "text",
+            "color": "#10cefe"
+          }
+        },
+        {
+          "id": "white",
+          "display": {
+            "text": "WHITE",
+            "type": "text",
+            "color": "#ffffff"
+          }
+        },
+        {
+          "id": "pink",
+          "display": {
+            "text": "PINK",
+            "type": "text",
+            "color": "#fe62c5"
+          }
+        },
+        {
+          "id": "gray",
+          "display": {
+            "text": "GRAY",
+            "type": "text",
+            "color": "#666666"
+          }
+        }
+      ]
+    },
+    {
+      "type": "minecraft:number_range",
+      "key": "speed",
+      "label": "SPEED",
+      "start": 1,
+      "end": 3,
+      "step": 1,
+      "initial": 1
+    }
+  ],
+  "can_close_with_escape": true,
+  "after_action": "close",
+  "yes": {
+    "label": "Give",
+    "action": {
+      "type": "minecraft:dynamic/run_command",
+      "template": "function mogu:generator/spawn_egg/own_gen {color:$(color),speed:$(speed)}"
+    }
+  },
+  "no": {
+    "label": "Close"
+  }
+}
