@@ -94,18 +94,103 @@
 ##-----------------------------------------set-----------------------------------------
 
     #iron_timer
-        scoreboard players set #OWN_GENS lv_0_iron_timer 0
-        scoreboard players set #OWN_GENS lv_1_iron_timer 0
-        scoreboard players set #OWN_GENS lv_4_iron_timer 0
+        scoreboard players set #red lv_0_iron_timer 0
+        scoreboard players set #red lv_4_iron_timer 0
+        scoreboard players set #red lv_1_iron_timer 0
+
+        scoreboard players set #blue lv_0_iron_timer 0
+        scoreboard players set #blue lv_1_iron_timer 0
+        scoreboard players set #blue lv_4_iron_timer 0
+
+        scoreboard players set #yellow lv_0_iron_timer 0
+        scoreboard players set #yellow lv_1_iron_timer 0
+        scoreboard players set #yellow lv_4_iron_timer 0
+
+        scoreboard players set #green lv_0_iron_timer 0
+        scoreboard players set #green lv_1_iron_timer 0
+        scoreboard players set #green lv_4_iron_timer 0
+
+        scoreboard players set #aqua lv_0_iron_timer 0
+        scoreboard players set #aqua lv_1_iron_timer 0
+        scoreboard players set #aqua lv_4_iron_timer 0
+
+        scoreboard players set #white lv_0_iron_timer 0
+        scoreboard players set #white lv_1_iron_timer 0
+        scoreboard players set #white lv_4_iron_timer 0
+
+        scoreboard players set #pink lv_0_iron_timer 0
+        scoreboard players set #pink lv_1_iron_timer 0
+        scoreboard players set #pink lv_4_iron_timer 0
+
+        scoreboard players set #gray lv_0_iron_timer 0
+        scoreboard players set #gray lv_1_iron_timer 0
+        scoreboard players set #gray lv_4_iron_timer 0
 
     #gold_timer
-        scoreboard players set #OWN_GENS lv_0_gold_timer 0
-        scoreboard players set #OWN_GENS lv_2_gold_timer 0
-        scoreboard players set #OWN_GENS lv_4_iron_timer 0
+        scoreboard players set #red lv_0_gold_timer 0
+        scoreboard players set #red lv_2_gold_timer 0
+        scoreboard players set #red lv_4_iron_timer 0
+
+        scoreboard players set #blue lv_0_gold_timer 0
+        scoreboard players set #blue lv_2_gold_timer 0
+        scoreboard players set #blue lv_4_iron_timer 0
+
+        scoreboard players set #yellow lv_0_gold_timer 0
+        scoreboard players set #yellow lv_2_gold_timer 0
+        scoreboard players set #yellow lv_4_iron_timer 0
+
+        scoreboard players set #green lv_0_gold_timer 0
+        scoreboard players set #green lv_2_gold_timer 0
+        scoreboard players set #green lv_4_iron_timer 0
+
+        scoreboard players set #aqua lv_0_gold_timer 0
+        scoreboard players set #aqua lv_2_gold_timer 0
+        scoreboard players set #aqua lv_4_iron_timer 0
+
+        scoreboard players set #white lv_0_gold_timer 0
+        scoreboard players set #white lv_2_gold_timer 0
+        scoreboard players set #white lv_4_iron_timer 0
+
+        scoreboard players set #pink lv_0_gold_timer 0
+        scoreboard players set #pink lv_2_gold_timer 0
+        scoreboard players set #pink lv_4_iron_timer 0
+        
+        scoreboard players set #gray lv_0_gold_timer 0
+        scoreboard players set #gray lv_2_gold_timer 0
+        scoreboard players set #gray lv_4_iron_timer 0
 
     #emerald_timer
-        scoreboard players set #OWN_GENS lv_3_own_emerald_timer 0
-        scoreboard players set #OWN_GENS lv_4_own_emerald_timer 0 
+        scoreboard players set #red lv_3_own_emerald_timer 0 
+        scoreboard players set #red lv_4_own_emerald_timer 0
+        scoreboard players set #red lv_3_own_emerald_timer 0
+
+        scoreboard players set #blue lv_4_own_emerald_timer 0
+        scoreboard players set #blue lv_3_own_emerald_timer 0 
+        scoreboard players set #blue lv_4_own_emerald_timer 0
+
+        scoreboard players set #yellow lv_3_own_emerald_timer 0 
+        scoreboard players set #yellow lv_4_own_emerald_timer 0
+        scoreboard players set #yellow lv_3_own_emerald_timer 0 
+
+        scoreboard players set #green lv_4_own_emerald_timer 0
+        scoreboard players set #green lv_3_own_emerald_timer 0 
+        scoreboard players set #green lv_4_own_emerald_timer 0
+
+        scoreboard players set #aqua lv_3_own_emerald_timer 0 
+        scoreboard players set #aqua lv_4_own_emerald_timer 0
+        scoreboard players set #aqua lv_3_own_emerald_timer 0 
+
+        scoreboard players set #white lv_4_own_emerald_timer 0
+        scoreboard players set #white lv_3_own_emerald_timer 0 
+        scoreboard players set #white lv_4_own_emerald_timer 0
+
+        scoreboard players set #pink lv_3_own_emerald_timer 0 
+        scoreboard players set #pink lv_4_own_emerald_timer 0
+        scoreboard players set #pink lv_3_own_emerald_timer 0 
+
+        scoreboard players set #gray lv_4_own_emerald_timer 0
+        scoreboard players set #gray lv_3_own_emerald_timer 0 
+        scoreboard players set #gray lv_4_own_emerald_timer 0
 
     #diamond
 
@@ -156,5 +241,12 @@
 ##-----------------------------------------schedule-----------------------------------------
 
     #timer
-        schedule clear mogu:generator/timer/gen_timer
+        schedule clear mogu:generator/timer/red_own_gen
+        schedule clear mogu:generator/timer/blue_own_gen
+        schedule clear mogu:generator/timer/yellow_own_gen
+        schedule clear mogu:generator/timer/green_own_gen
+        schedule clear mogu:generator/timer/aqua_own_gen
+        schedule clear mogu:generator/timer/white_own_gen
+        schedule clear mogu:generator/timer/pink_own_gen
+        schedule clear mogu:generator/timer/gray_own_gen
         schedule clear mogu:generator/timer/texts

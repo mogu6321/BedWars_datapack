@@ -49,6 +49,4 @@ color
 
 generaterのブロック
 
-
-
-##pickup_check!!!!!!!修正！
+セレクター確認！！！

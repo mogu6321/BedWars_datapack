@@ -2,4 +2,6 @@
 
 #3×3×1の範囲にいる人がトリガー(x,y,z情報は[$(color):own_pos]より)
 
-$execute if entity @a[x=$(trigger_min_x),y=$(trigger_min_y),z=$(trigger_min_z),dx=$(trigger_max_x),dy=$(trigger_max_y),z=$(trigger_max_z))] run function mogu:generator/own_gen/pick_up {split_min_x:$(split_min_x),split_min_y:$(split_min_y),split_min_z:$(split_min_z),split_max_x:$(split_max_x),split_max_y:$(split_max_y),split_max_z:$(split_max_z),iron:$(iron),gold:$(gold),color:$(color)}
+$execute as @e[name=own_gen,tag=own_gen,tag=$(color)] at @s if entity @a[x=$(trigger_min_x),y=$(trigger_min_y),z=$(trigger_min_z),dx=1.5,dy=0,dz=1.5] unless score #$(color) iron_count matches 0 run function mogu:generator/own_gen/pick_up_iron with storage $(color):own_gen
+$execute as @e[name=own_gen,tag=own_gen,tag=$(color)] at @s if entity @a[x=$(trigger_min_x),y=$(trigger_min_y),z=$(trigger_min_z),dx=1.5,dy=0,dz=1.5] unless score #$(color) gold_count matches 0 run function mogu:generator/own_gen/pick_up_gold with storage $(color):own_gen
+$execute as @e[name=own_gen,tag=own_gen,tag=$(color)] at @s if entity @a[x=$(trigger_min_x),y=$(trigger_min_y),z=$(trigger_min_z),dx=1.5,dy=0,dz=1.5] unless score #$(color) emerald_count matches 0 run function mogu:generator/own_gen/pick_up_emerald with storage $(color):own_gen
