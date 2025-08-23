@@ -1,5 +1,8 @@
 #as_spawnが実行
 
+#向きの調節
+    tp @s ~ ~ ~ -180 0
+
 #armor_standの召喚
     #$summon minecraft:armor_stand ^1.0 ^1 ^-1.0 {NoGravity:true,Tags:[trigger_max,$(color),own_gen,pos],CustomNameVisible:true,CustomName:trigger_max}
     #$summon minecraft:armor_stand ^2.0 ^1 ^-2.0 {NoGravity:true,Tags:[split_max,$(color),own_gen,pos],CustomNameVisible:true,CustomName:split_max}
