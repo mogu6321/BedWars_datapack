@@ -1,0 +1,1 @@
+$give @a $(id)[custom_name=[{"text":"$(name)","italic":false,"color":"green"}],lore=[[{"text":"価格：","italic":false,"color":"gray"},{"text":"$(amount)","italic":false,"color":"white"},{"text":"鉄","italic":false,"color":"white"}],"",[{"text":"クリックして購入！","italic":false,"color":"yellow"}]],$(component)] $(count)

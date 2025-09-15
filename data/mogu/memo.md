@@ -49,4 +49,4 @@ color
 
 generaterのブロック
 
-セレクター確認！！！
+シルバーフィッシュ　advancementで確認
