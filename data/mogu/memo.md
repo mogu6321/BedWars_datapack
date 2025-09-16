@@ -50,3 +50,5 @@ color
 generaterのブロック
 
 シルバーフィッシュ　advancementで確認
+
+shop内mogu6321→$(UUID)に変更
