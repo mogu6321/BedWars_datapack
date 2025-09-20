@@ -1,7 +1,7 @@
 ##-----------------------------------------remove-----------------------------------------
-    #page
-        scoreboard objectives remove page
+    #pages
+        scoreboard objectives remove pages
 
 ##-----------------------------------------add-----------------------------------------
     #pages
-        scoreboard objectives add page dummy
+        scoreboard objectives add pages dummy
